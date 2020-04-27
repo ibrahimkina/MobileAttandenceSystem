@@ -18,6 +18,7 @@ import java.util.Calendar;
 
 public class Attendance extends AppCompatActivity {
     //private Spinner spinner;
+
     Button scanbtn,calender;
     TextView tvrollno,tvname,tvgender,tvcourse,tvcollegeid,tvmobileno,tv1,tv2,tv3,tv4,tv5,tv6;
     DatabaseHelper mydb;
@@ -34,8 +35,8 @@ public class Attendance extends AppCompatActivity {
          tvcourse= (TextView) findViewById(R.id.tvvcourse);
          tvcollegeid= (TextView) findViewById(R.id.tvvcollegeid);
          tvmobileno= (TextView) findViewById(R.id.tvvmobileno);
-         tv1= (TextView) findViewById(R.id.tvrollno);
-         tv2= (TextView) findViewById(R.id.tvname);
+        tv1= (TextView) findViewById(R.id.tvrollno);
+        tv2= (TextView) findViewById(R.id.tvname);
          tv3= (TextView) findViewById(R.id.tvgender);
          tv4= (TextView) findViewById(R.id.tvcourse);
          tv5= (TextView) findViewById(R.id.tvcollegeid);
